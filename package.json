@@ -1,0 +1,29 @@
+{
+  "name": "f2e-spider",
+  "version": "0.1.0",
+  "description": "spider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shy2850/f2e-spider.git"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "shy2850",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shy2850/f2e-spider/issues"
+  },
+  "bin": {
+    "spider": "./bin/spider"
+  },
+  "homepage": "https://github.com/shy2850/f2e-spider#readme",
+  "dependencies": {
+    "jsdom": "^11.6.1",
+    "request": "^2.83.0"
+  }
+}
